@@ -215,7 +215,7 @@ const RestaurantDetails: React.FC = () => {
                   height="100%" 
                   frameBorder="0" 
                   style={{ border: 0 }} 
-                  src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${encodeURIComponent(
+                  src={`https://www.google.com/maps/embed/v1/place?key=xxx.yyy.zzz=${encodeURIComponent(
                     `${restaurant.location.address}, ${restaurant.location.city}, ${restaurant.location.country}`
                   )}`}
                   allowFullScreen
